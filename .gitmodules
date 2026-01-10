@@ -8,3 +8,6 @@
 	url = https://github.com/raspberrypi/pico-sdk.git
 	branch = master
 	ignore = dirty
+[submodule "external/unified-targets"]
+	path = external/unified-targets
+	url = https://github.com/betaflight/unified-targets.git
