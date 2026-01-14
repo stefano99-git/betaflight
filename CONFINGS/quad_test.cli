@@ -1,0 +1,18 @@
+# Quad test on KakuteH7Mini (use only motors 1-4)
+
+# Set quad mixer (4 motors)
+mixer QUADX
+
+# Ensure motor resources for motors 1-4 are mapped as per HBRO-KAKUTEH7MINI
+resource MOTOR 1 B00
+resource MOTOR 2 B01
+resource MOTOR 3 B03
+resource MOTOR 4 B10
+
+# Disable extra motors (5-8)
+resource MOTOR 5 NONE
+resource MOTOR 6 NONE
+resource MOTOR 7 NONE
+resource MOTOR 8 NONE
+
+save
